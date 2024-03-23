@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #E50914;
+    padding: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+    </style>
+    <meta charset="UTF-8">
+    <title>Cybersecurity Incident Report</title>
+</head>
+<body>
+    <h1 align="center">Report a Cybersecurity Incident</h1>
+    <form id="reportForm">
+        <label for="incident">Incident Description:</label><br>
+        <textarea id="incident" name="incident" rows="15" cols="50" ></textarea><br>
+    
+        <center>
+        <input type="submit" value="Submit">
+        </center>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
